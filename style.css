@@ -13,11 +13,12 @@ body{
     width: 100%;
     height: 100vh;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 }
 .header .right-section{
-    width: 50%;
-    height: 80vh;
+    width: 100%;
+    height: 10vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,21 +26,22 @@ body{
 
 .header .left-section{
     color: white;
-    width: 50%;
-    height: 80vh;
+    width: 100%;
+    height: 10vh;
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
 .header .left-section .title{
-    width: 50%;
-    height: 65vh;
+    width: 84%;
+    height: 44vh;
+    color: white;
 }
 
 .header .right-section figure{
-    width: 50%;
-    height: 65vh;
+    width: 85%;;
+    height: 44vh;
     background-color: white;
     border-radius: 15%;
 }
@@ -62,26 +64,25 @@ body{
 .main-section .skills
 {
     width: 100%;
-    height: 600px;
+    height: auto;
     background-color: black;
 
 }
 .main-section .project{
     width: 100%;
-    height: 600px;
+    height: auto;
     background-color: white;
 
 }
 .main-section .contact-section{
     width: 100%;
-    height: 750px;
+    height: 350px;
     background-color: black;
-}
-.main-section .contact-section{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
 }
+
 .main-section .contact-section .title{
     color: white;
     width: 100%;
@@ -96,23 +97,24 @@ body{
 .main-section .contact-section .contact-infos{
     width: 100%;
     color: white;
-    display: flex;
-    padding-top: 55px;
+    padding-top: 30px;
 }
 
 .main-section .contact-section .contact-infos .left-section{
-    width: 50%;
+    width: 100%;
     height: 90%;
-    padding-left: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 
 }
 .main-section .contact-section .contact-infos .right-section{
-    width: 50%;
+    width: 100%;
     height: 90%;
     display: flex;
-    flex-direction: row-reverse;
-    padding-right: 21%;
+    flex-direction: column;
+    align-items: center;
 
 }
 
@@ -120,15 +122,18 @@ body{
     width: 100%;
     height: 120px;
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 .main-section .contact-section .dowload-cvBox .btm-container{
-    width: 50%;
-    padding-left: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .main-section .contact-section .dowload-cvBox .btm-container button{
-    width: 40%;
+    width: 50%;
     border-radius: 40px;
     border: none;
     height: 37px;
@@ -137,10 +142,10 @@ body{
     font-weight: bold;
 }
 .main-section .contact-section .dowload-cvBox .profile{
-    width: 50%;
+    width: 100%;
     display: flex;
-    flex-direction: row-reverse;
-    padding-right: 15%;
+    flex-direction: column;
+    align-items: center;
 }
 
 .main-section .contact-section .dowload-cvBox .profile figure{
@@ -164,12 +169,13 @@ body{
 
 .skills .skills-box {
     width: 100%;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;    
 }
 .skills .skills-box .box{
-    width: 30%;
+    width: 100%;
     height: 180px;
     background-color: rgb(172, 77, 124);
     margin: 40px;
@@ -192,7 +198,7 @@ body{
     justify-content: space-around;    
 }
 .project .project-box .box{
-    width: 30%;
+    width: 100%;
     height: 180px;
     background-color: black;
     margin: 20px;
