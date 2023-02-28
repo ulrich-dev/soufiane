@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+}
+
+.header{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.header .right-section{
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .left-section{
+    color: white;
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.header .left-section .title{
+    width: 50%;
+    height: 65vh;
+}
+
+.header .right-section figure{
+    width: 50%;
+    height: 65vh;
+    background-color: white;
+    border-radius: 15%;
+}
+
+.header .right-section figure img{
+    object-fit: cover;
+
+}
+.main-section{
+    width: 100%;
+}
+
+.main-section .App{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+
+}
+
+.main-section .skills
+{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+
+}
+.main-section .project{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+
+}
+.main-section .contact-section{
+    width: 100%;
+    height: 750px;
+    background-color: black;
+}
+.main-section .contact-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main-section .contact-section .title{
+    color: white;
+    width: 100%;
+    font-size:xx-large;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.main-section .contact-section .contact-infos{
+    width: 100%;
+    color: white;
+    display: flex;
+    padding-top: 55px;
+}
+
+.main-section .contact-section .contact-infos .left-section{
+    width: 50%;
+    height: 90%;
+    padding-left: 15%;
+
+
+}
+.main-section .contact-section .contact-infos .right-section{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 21%;
+
+}
+
+.main-section .contact-section .dowload-cvBox{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+.main-section .contact-section .dowload-cvBox .btm-container{
+    width: 50%;
+    padding-left: 15%;
+}
+
+.main-section .contact-section .dowload-cvBox .btm-container button{
+    width: 40%;
+    border-radius: 40px;
+    border: none;
+    height: 37px;
+    background-color:white;
+    color: black;
+    font-weight: bold;
+}
+.main-section .contact-section .dowload-cvBox .profile{
+    width: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 15%;
+}
+
+.main-section .contact-section .dowload-cvBox .profile figure{
+    width: 30%;
+    height: 109px;
+    background-color: white;
+    border-radius: 100%;
+    position: relative;
+}
+.main-section .contact-section .dowload-cvBox .profile figure img{
+    position: absolute;
+    object-fit: cover;
+}
+
+.skills .title{
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.skills .skills-box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;    
+}
+.skills .skills-box .box{
+    width: 30%;
+    height: 180px;
+    background-color: rgb(172, 77, 124);
+    margin: 40px;
+    border-radius: 10px;
+}
+
+
+
+.project .title{
+    width: 100%;
+    color: black;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.project .project-box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;    
+}
+.project .project-box .box{
+    width: 30%;
+    height: 180px;
+    background-color: black;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+
+.App .title{
+    width: 100%;
+    color: black;
+    text-align: center;
+    padding-top: 40px;
+}
